@@ -44,6 +44,9 @@ block = gr.Blocks()
 
 
 with block:
+    gr.Markdown("""<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6750087449030029"
+     crossorigin="anonymous"></script>
+    """)
     gr.Markdown("""<h1><center>Smart ChatAi</center></h1>
     """)
     chatbot = gr.Chatbot()
